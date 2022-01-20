@@ -1,9 +1,9 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
-import MainNavigation from "./components/layout/MainNavigation";
 import AllMeetupsPage from "./pages/AllMeetups";
 import FavoritesPage from "./pages/Favorites";
 import NewMeetupPage from "./pages/NewMeetup";
+import MainNavigation from "./components/layout/MainNavigation";
 
 function App() {
   return (
