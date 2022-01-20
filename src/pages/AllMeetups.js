@@ -33,7 +33,7 @@ const DUMMY_DATA = [
 const AllMeetupsPage = () => {
   return (
     <div>
-      <h1 style={{'text-align': 'center'}}>All Meetups</h1>
+      <h1 style={{'textAlign': 'center'}}>All Meetups</h1>
       <MeetupList items={DUMMY_DATA} />
     </div>
   );
