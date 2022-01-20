@@ -18,10 +18,10 @@ const NewMeetupForm = (props) => {
     const enteredDescription = descriptionInputRef.current.value;
 
     const newMeetup = {
-      enteredTitle,
-      enteredImage,
-      enteredAddress,
-      enteredDescription,
+      title: enteredTitle,
+      image: enteredImage,
+      address: enteredAddress,
+      description: enteredDescription,
     };
 
     props.onAddMeetup(newMeetup)
