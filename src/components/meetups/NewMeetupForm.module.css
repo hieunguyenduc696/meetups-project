@@ -20,8 +20,8 @@
 .form-control input {
     border-radius: 6px;
     border: 1px solid #999;
-    padding: 5px 15px;
-    font-size: 14px;
+    padding: 5px 10px;
+    font-size: 18px;
 }
 
 .action {
