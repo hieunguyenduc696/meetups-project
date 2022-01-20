@@ -1,0 +1,47 @@
+.form {
+    background-color: white;
+    height: 100%;
+    padding: 20px 16px;
+    overflow: hidden;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.form-control label {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.form-control input {
+    border-radius: 6px;
+    border: 1px solid #999;
+    padding: 5px 15px;
+    font-size: 14px;
+}
+
+.action {
+    float: right;
+    margin: 10px 0;
+}
+
+.action button {
+    padding: 10px 20px;
+    color: #6998ab;
+    background-color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #6998ab;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.action button:hover {
+    color: whitesmoke;
+    background-color: #6998ab;
+  }
