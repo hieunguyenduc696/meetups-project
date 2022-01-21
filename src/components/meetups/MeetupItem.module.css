@@ -1,5 +1,4 @@
 .meetup-item {
-  height: 680px;
   display: flex;
   justify-content: center;
   margin-bottom: 2rem;
@@ -24,9 +23,16 @@
   border: 1px solid #6998ab;
   cursor: pointer;
   transition: color 0.2s ease;
+  margin-bottom: 20px;
 }
 
 .btn:hover {
   color: whitesmoke;
   background-color: #6998ab;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
