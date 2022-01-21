@@ -7,6 +7,7 @@ const MeetupList = (props) => {
       {props.items.map((meetup) => (
         <MeetupItem
           key={meetup.id}
+          id={meetup.id}
           title={meetup.title}
           description={meetup.description}
           address={meetup.address}
